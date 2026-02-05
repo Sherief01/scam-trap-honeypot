@@ -20,3 +20,5 @@ Scam-Trap is an intelligent honeypot system designed to fight cyber-crime. It us
 1. `pip install -r requirements.txt`
 2. `uvicorn main:app --reload`
 3. `streamlit run dashboard.py`
+
+demo ideolin:https://drive.google.com/file/d/1ufhmeaunOLIosH_gTyTxYM9ipItNU4wv/view?usp=drivesdk
