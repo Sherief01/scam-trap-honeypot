@@ -12,7 +12,7 @@ app = FastAPI()
 spy = ScamSpy()
 
 # --- CONFIGURATION ---
-API_KEY_GEMINI = "AIzaSyDXLO8XiEUu8h40uq3OCuxFPoK1M4ohYtg" 
+API_KEY_GEMINI = "" 
 client = genai.Client(api_key=API_KEY_GEMINI)
 
 GUVI_CALLBACK_URL = "https://hackathon.guvi.in/api/updateHoneyPotFinalResult"
